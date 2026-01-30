@@ -1,0 +1,7 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Device,Sim.Pins
+"D1, D10, D11, D12, D13, D14, D15, D2, D3, D4, D5, D6, D7, D8, D9",15,1N4148,D_DO-35_SOD27_P7.62mm_Horizontal,,,,tht,"100V 0.15A standard switching diode, DO-35",D,1=K 2=A
+"D16, D17, D18, D19, D20",5,SK6812MINI,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm,,,,smt,RGB LED with integrated controller,,
+J1,1,OLED,PinHeader_1x04_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x04, script generated",,
+"SW1, SW11",2,RotaryEncoder_Switch,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,,,,tht,"Rotary encoder, dual channel, incremental quadrate outputs, with switch",,
+"SW10, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9",9,SW_Push,SW_Cherry_MX_1.00u_PCB,,,,tht,"Push button switch, generic, two pins",,
+U1,1,XIAO-RP2040-DIP,XIAO-RP2040-DIP,,,,smt,,,
