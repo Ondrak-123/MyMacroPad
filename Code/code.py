@@ -15,7 +15,7 @@ keyboard.extensions.append(MediaKeys())
 # leds pinout + connection
 rgb = RGB(
     pixel_pin=board.GP2,
-    num_pixels=4,   
+    num_pixels=5,   
     val_limit=100,  
     hue_default=120, 
     sat_default=255,
