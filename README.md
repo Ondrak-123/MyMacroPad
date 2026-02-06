@@ -4,7 +4,10 @@
 The 3D files might slightly change in the future.
 
 All the layouts, pcb, case images are in the folder "Photos"
+Here is the list of all the components you need:
 
+<img width="289" height="219" alt="image" src="https://github.com/user-attachments/assets/60559091-3862-48cd-86c4-4540d6c326a5" />
+-
 <img width="708" height="611" alt="image" src="https://github.com/user-attachments/assets/97fdb0e3-75cb-4943-b567-61a02c5ddfe1" />
 
 <img width="647" height="578" alt="02" src="https://github.com/user-attachments/assets/8fdc760c-50dd-4b0f-8754-8418bbcf1207" />
