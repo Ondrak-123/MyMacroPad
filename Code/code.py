@@ -28,17 +28,16 @@ keyboard.extensions.append(rgb)
 # pin definition
 keyboard.col_pins = (board.GP26, board.GP27, board.GP28, board.GP29)
 
-keyboard.row_pins = (board.GP6, board.GP7, board.GP0, board.GP1)
+# Moved Rows 1 and 2 to GP3/4 to clear GP6/7 for the screen
+keyboard.row_pins = (board.GP3, board.GP4, board.GP0, board.GP1)
 
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 # encoder
-
 encoder_handler = EncoderHandler()
 keyboard.modules.append(encoder_handler)
 
 # matrix
-
 encoder_handler.pins = [
     ((keyboard.col_pins[3], keyboard.row_pins[0], keyboard.row_pins[1]),), 
     ((keyboard.col_pins[3], keyboard.row_pins[3], keyboard.row_pins[2]),), 
@@ -50,7 +49,6 @@ encoder_handler.map = [
 ]
 
 # display
-
 oled_ext = Oled(
     OledData(
         corner_one={0:OledReactionType.STATIC,1:["Layer"]},
@@ -59,12 +57,13 @@ oled_ext = Oled(
         corner_four={0:OledReactionType.STATIC,1:["Numpad"]}
     ),
     toDisplay=OledDisplayMode.TXT,
+    sda=board.GP6,
+    scl=board.GP7,
     flip=False, 
 )
 keyboard.extensions.append(oled_ext)
 
 # mapped keys
-
 keyboard.keymap = [
     [   
         KC.N7,    KC.N8,    KC.N9,    KC.NO,  
