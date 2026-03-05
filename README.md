@@ -7,18 +7,24 @@ All the layouts, pcb, case images are in the folder "Photos"
 
 Here is the list of all the components you need:
 
-<img width="289" height="268" alt="image" src="https://github.com/user-attachments/assets/a69a50e8-ddbf-494f-80f3-af014bc41ea4" />
+<img width="1053" height="462" alt="image" src="https://github.com/user-attachments/assets/0d2c5db1-d938-4234-8856-c0d78f310119" />
 
--
 
-<img width="708" height="611" alt="image" src="https://github.com/user-attachments/assets/97fdb0e3-75cb-4943-b567-61a02c5ddfe1" />
 
-<img width="867" height="795" alt="3" src="https://github.com/user-attachments/assets/db2ea0f5-e54e-4d39-8caa-48a44f5ddc5d" />
-<img width="890" height="813" alt="2" src="https://github.com/user-attachments/assets/a5a7b137-bad2-47fd-9177-df0853a4743b" />
-<img width="919" height="815" alt="1" src="https://github.com/user-attachments/assets/6871f013-45b4-49b7-828f-eea0050dc7e2" />
-<img width="1119" height="786" alt="4" src="https://github.com/user-attachments/assets/d8da09a4-0469-4633-a693-20c628728f6f" />
-<img width="758" height="644" alt="05" src="https://github.com/user-attachments/assets/28c4aed7-bf73-4026-b53e-7d731c77f6c4" />
-<img width="994" height="611" alt="07" src="https://github.com/user-attachments/assets/a8770325-0ab8-42e2-9652-76f2ae271904" />
-<img width="678" height="616" alt="06" src="https://github.com/user-attachments/assets/5efb2128-40ce-4238-b6d7-11ec1add505b" />
-<img width="765" height="707" alt="04" src="https://github.com/user-attachments/assets/9ee23273-4b66-415c-ab77-64fe4ebcd399" />
+<img width="510" height="518" alt="image" src="https://github.com/user-attachments/assets/1c912fe5-233d-45a8-bf6a-05b36673477b" />
+
+
+<img width="851" height="778" alt="image" src="https://github.com/user-attachments/assets/e92ed0ba-48e9-41f5-84c3-e3193b04717d" />
+
+<img width="888" height="808" alt="image" src="https://github.com/user-attachments/assets/8f42e7bd-3b2a-48e6-b143-70e9c1023217" />
+<img width="897" height="813" alt="image" src="https://github.com/user-attachments/assets/d506548d-fbde-40de-9255-7a44458ccf40" />
+<img width="1141" height="808" alt="image" src="https://github.com/user-attachments/assets/a7b32f2b-dc4f-44ae-bced-cb00bb71d8c4" />
+<img width="651" height="534" alt="image" src="https://github.com/user-attachments/assets/d9ca3f50-2cd1-4ad2-a14d-6ff45268eb9d" />
+
+<img width="629" height="506" alt="image" src="https://github.com/user-attachments/assets/9f129d1d-d642-4388-a7e4-02af8efd8543" />
+
+<img width="623" height="511" alt="image" src="https://github.com/user-attachments/assets/ee2da03c-5b93-47e6-8e7a-7f38187b72e7" />
+
+<img width="575" height="540" alt="image" src="https://github.com/user-attachments/assets/7fed2335-7883-4a65-b67e-4bf560aa73e1" />
+
 
