@@ -7,12 +7,10 @@ from kmk.extensions.media_keys import MediaKeys
 from kmk.extensions.peg_oled_display import Oled, OledDisplayMode, OledReactionType, OledData
 from kmk.extensions.RGB import RGB, AnimationModes
 
-# code for "MyMacroPad"
-# initalization 
 keyboard = KMKKeyboard()
 keyboard.extensions.append(MediaKeys())
 
-# leds pinout + connection
+# leds pinout
 rgb = RGB(
     pixel_pin=board.GP2,
     num_pixels=5,   
@@ -26,10 +24,11 @@ rgb = RGB(
 keyboard.extensions.append(rgb)
 
 # pin definition
-keyboard.col_pins = (board.GP26, board.GP27, board.GP28, board.GP29)
+# collums
+keyboard.col_pins = (board.GP26, board.GP27, board.GP28)
 
-# Moved Rows 1 and 2 to GP3/4 to clear GP6/7 for the screen
-keyboard.row_pins = (board.GP3, board.GP4, board.GP0, board.GP1)
+# rows
+keyboard.row_pins = (board.GP3, board.GP4, board.GP29)
 
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
@@ -37,15 +36,13 @@ keyboard.diode_orientation = DiodeOrientation.COL2ROW
 encoder_handler = EncoderHandler()
 keyboard.modules.append(encoder_handler)
 
-# matrix
-encoder_handler.pins = [
-    ((keyboard.col_pins[3], keyboard.row_pins[0], keyboard.row_pins[1]),), 
-    ((keyboard.col_pins[3], keyboard.row_pins[3], keyboard.row_pins[2]),), 
-]
+encoder_handler.pins = (
+    (board.GP1, board.GP0, None, False),
+)
 
-# encoder values (Controlling volume and page scrolling).
+# encoder settings
 encoder_handler.map = [
-    ((KC.VOLU, KC.VOLD), (KC.PGUP, KC.PGDN)),
+    ((KC.VOLU, KC.VOLD),),
 ]
 
 # display
@@ -66,11 +63,9 @@ keyboard.extensions.append(oled_ext)
 # mapped keys
 keyboard.keymap = [
     [   
-        KC.N7,    KC.N8,    KC.N9,    KC.NO,  
-        KC.N4,    KC.N5,    KC.N6,    KC.NO,  
-        KC.N1,    KC.N2,    KC.N3,    KC.NO,  
-        
-        KC.MUTE,  KC.ENT,   KC.N0,    KC.NO,  
+        KC.N7,    KC.N8,    KC.N9,
+        KC.N4,    KC.N5,    KC.N6,
+        KC.N1,    KC.N2,    KC.N3,
     ]
 ]
 
