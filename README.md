@@ -1,9 +1,7 @@
 # MyMacroPad
-"MyMacroPad" 3*3 Pad With 2 Encoders, An Oled Screen And Backlight 
+"MyMacroPad" with 9 keys and an encoder, oled screen and backlight .
 
 The 3D files might slightly change in the future.
-
-All the layouts, pcb, case images are in the folder "Photos"
 
 Here is the list of all the components you need:
 
