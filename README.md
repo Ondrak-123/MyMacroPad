@@ -12,10 +12,13 @@ Here is the list of all the components you need:
 <img width="510" height="518" alt="image" src="https://github.com/user-attachments/assets/1c912fe5-233d-45a8-bf6a-05b36673477b" />
 
 
-<img width="851" height="778" alt="image" src="https://github.com/user-attachments/assets/e92ed0ba-48e9-41f5-84c3-e3193b04717d" />
+<img width="845" height="776" alt="image" src="https://github.com/user-attachments/assets/e31d961c-bca1-4778-8c90-bc19f2ce5cd4" />
 
-<img width="888" height="808" alt="image" src="https://github.com/user-attachments/assets/8f42e7bd-3b2a-48e6-b143-70e9c1023217" />
-<img width="897" height="813" alt="image" src="https://github.com/user-attachments/assets/d506548d-fbde-40de-9255-7a44458ccf40" />
+
+<img width="895" height="814" alt="image" src="https://github.com/user-attachments/assets/fc50f70c-5aa0-4d79-ab6a-ebd40b477cb7" />
+
+<img width="897" height="811" alt="image" src="https://github.com/user-attachments/assets/1db2fb83-a2d2-44f1-a38c-fb2e9cae9381" />
+
 <img width="1141" height="808" alt="image" src="https://github.com/user-attachments/assets/a7b32f2b-dc4f-44ae-bced-cb00bb71d8c4" />
 <img width="651" height="534" alt="image" src="https://github.com/user-attachments/assets/d9ca3f50-2cd1-4ad2-a14d-6ff45268eb9d" />
 
